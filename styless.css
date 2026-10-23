@@ -29,7 +29,7 @@ ul {
 
 /* ===== HEADER / NAV ===== */
 header {
-  background: #65029a;
+  background: #9a1bdf;
   color: white;
   padding: 0.9rem 1.2rem;
   position: sticky;
@@ -55,7 +55,7 @@ header {
 }
 
 .logo span {
-  color: #F5C518;
+  color: #efefef;
 }
 
 nav ul {
@@ -74,8 +74,8 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  background: #F5C518;
-  color: #8B1E1E;
+  background: hsl(281, 93%, 78%);
+  color: #f9f7f7;
   font-weight: 600;
 }
 
@@ -92,7 +92,7 @@ nav a.active {
 
 /* ===== HERO ===== */
 .hero {
-  background: linear-gradient(rgba(90, 20, 20, 0.65), rgba(90, 20, 20, 0.65)),
+  background: linear-gradient(rgba(49, 1, 61, 0.776), rgba(26, 26, 26, 0.384)),
               url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1400') center/cover;
   color: white;
   text-align: center;
@@ -109,14 +109,14 @@ nav a.active {
 .hero .tagline {
   font-size: 1.2rem;
   margin-bottom: 1.6rem;
-  color: #F5C518;
+  color: #f1b7f6;
   font-weight: 600;
 }
 
 .btn {
   display: inline-block;
-  background: #F5C518;
-  color: #8B1E1E;
+  background: #79028b;
+  color: #f4f2f6;
   padding: 0.75rem 1.7rem;
   border-radius: 6px;
   font-weight: 700;
@@ -127,7 +127,7 @@ nav a.active {
 }
 
 .btn:hover {
-  background: #fff;
+  background: #6c069c;
   transform: translateY(-2px);
 }
 
@@ -140,7 +140,7 @@ main {
 
 .section-title {
   text-align: center;
-  color: #8B1E1E;
+  color: #66046c;
   font-size: 1.85rem;
   margin-bottom: 1.8rem;
   font-family: Georgia, serif;
@@ -160,7 +160,7 @@ main {
   overflow: hidden;
   text-align: center;
   box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-  border-top: 4px solid #8B1E1E;
+  border-top: 4px solid #612c70;
   transition: 0.25s;
 }
 
@@ -175,7 +175,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #8B1E1E;
+  color: #ae65cd;
   font-weight: 600;
   font-size: 0.95rem;
 }
@@ -199,11 +199,11 @@ main {
   border-radius: 10px;
   padding: 1.5rem;
   box-shadow: 0 3px 12px rgba(0,0,0,0.07);
-  border-left: 5px solid #F5C518;
+  border-left: 5px solid #6f0385;
 }
 
 .info-box h3 {
-  color: #8B1E1E;
+  color: #d8a5f0;
   margin-bottom: 0.7rem;
   font-size: 1.2rem;
 }
@@ -222,7 +222,7 @@ main {
 }
 
 .about-block .text h2 {
-  color: #8B1E1E;
+  color: #60036b;
   margin-bottom: 0.9rem;
   font-size: 1.45rem;
 }
@@ -239,7 +239,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #8B1E1E;
+  color: #7e148f;
   font-weight: 600;
   border: 2px dashed #c9b8a0;
 }
@@ -250,7 +250,7 @@ main {
 }
 
 .team-section h2 {
-  color: #8B1E1E;
+  color: #821e8b;
   margin-bottom: 1.4rem;
   font-size: 1.7rem;
 }
@@ -268,7 +268,7 @@ main {
   border-radius: 10px;
   padding: 1.4rem;
   box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-  border-top: 4px solid #F5C518;
+  border-top: 4px solid #6b0689;
 }
 
 .team-card .img-placeholder {
@@ -277,7 +277,7 @@ main {
 }
 
 .team-card h3 {
-  color: #8B1E1E;
+  color: #791e8b;
   margin-bottom: 0.3rem;
 }
 
@@ -292,8 +292,8 @@ main {
 
 .menu-tabs button {
   background: white;
-  border: 2px solid #8B1E1E;
-  color: #8B1E1E;
+  border: 2px solid #6a1e8b;
+  color: #791e8b;
   padding: 0.55rem 1.3rem;
   border-radius: 6px;
   font-weight: 600;
@@ -303,7 +303,7 @@ main {
 
 .menu-tabs button.active,
 .menu-tabs button:hover {
-  background: #8B1E1E;
+  background: #831aa3;
   color: white;
 }
 
@@ -329,13 +329,13 @@ main {
 }
 
 .menu-item h4 {
-  color: #8B1E1E;
+  color: #791e8b;
   font-size: 1.08rem;
 }
 
 .menu-item .price {
   font-weight: 700;
-  color: #8B1E1E;
+  color: #6c1e8b;
   background: #FDF0C8;
   padding: 0.25rem 0.7rem;
   border-radius: 20px;
@@ -350,12 +350,12 @@ main {
   border-radius: 12px;
   padding: 2.2rem 1.7rem;
   box-shadow: 0 4px 18px rgba(0,0,0,0.1);
-  border-top: 6px solid #8B1E1E;
+  border-top: 6px solid #7d1692;
 }
 
 .reserve-box h1 {
   text-align: center;
-  color: #8B1E1E;
+  color: #a010c1;
   font-size: 1.6rem;
   margin-bottom: 0.35rem;
 }
@@ -394,7 +394,7 @@ main {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #8B1E1E;
+  border-color: #821e8b;
   background: white;
   box-shadow: 0 0 0 3px rgba(139, 30, 30, 0.12);
 }
@@ -419,7 +419,7 @@ main {
 }
 
 .contact-info h2 {
-  color: #8B1E1E;
+  color: #690682;
   margin-bottom: 1rem;
   font-size: 1.25rem;
 }
@@ -432,7 +432,7 @@ main {
 .maps-btn {
   display: inline-block;
   margin-top: 0.4rem;
-  background: #8B1E1E;
+  background: #8e04b9;
   color: white;
   padding: 0.65rem 1.3rem;
   border-radius: 6px;
@@ -441,7 +441,7 @@ main {
 }
 
 .maps-btn:hover {
-  background: #6a1515;
+  background: #b95ad6;
 }
 
 .contact-form-box {
@@ -449,7 +449,7 @@ main {
   padding: 1.6rem;
   border-radius: 10px;
   box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-  border-top: 4px solid #F5C518;
+  border-top: 4px solid #810aa8;
 }
 
 /* ===== FOOTER ===== */
@@ -472,7 +472,7 @@ footer {
 }
 
 .footer-line strong {
-  color: #F5C518;
+  color: #8008a7;
 }
 
 .socials {
