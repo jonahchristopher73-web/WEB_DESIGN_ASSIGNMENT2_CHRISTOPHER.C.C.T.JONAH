@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Carson's Italian Spaghetti</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <header>
+    <div class="nav-wrap">
+      <div class="logo">CIS <span>Carson's Italian Spaghetti</span></div>
+      <button class="menu-btn" onclick="this.nextElementSibling.classList.toggle('open')">☰</button>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="section-title">Contact Us!</h1>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Trying to Contact us? use these!</h2>
+        <p><strong>Phone Number:</strong><br>0732 68562</p>
+        <p><strong>Our Email:</strong><br>carsonsitalian@gmail.com</p>
+
+        <h2 style="margin-top:1.8rem;">Trying to Locate us?</h2>
+        <p>Wilkinson Road</p>
+        <a href="https://maps.google.com" target="_blank" class="maps-btn">Google Maps</a>
+      </div>
+
+      <div class="contact-form-box">
+        <h2 style="color:#8B1E1E; margin-bottom:1rem;">Talk to us and let us know</h2>
+        <form onsubmit="event.preventDefault(); alert('Message sent! Thanks for reaching out.');">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="msg">Message</label>
+            <textarea id="msg" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-line">
+      <strong>CIS</strong> | Wilkinson Road | 0732 68562
+    </div>
+    <div class="socials">
+      <span>TT</span>
+      <span>IG</span>
+      <span>X</span>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Carson's Italian Spaghetti</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <header>
+    <div class="nav-wrap">
+      <div class="logo">CIS <span>Carson's Italian Spaghetti</span></div>
+      <button class="menu-btn" onclick="this.nextElementSibling.classList.toggle('open')">☰</button>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="section-title">Our Menu</h1>
+
+    <div class="menu-tabs">
+      <button class="active">Starters</button>
+      <button>Mains</button>
+      <button>Drinks</button>
+    </div>
+
+    <div class="menu-list">
+      <div class="menu-item">
+        <h4>Spaghetti Carbonara</h4>
+        <span class="price">$25</span>
+      </div>
+      <div class="menu-item">
+        <h4>Penne Arrabiata</h4>
+        <span class="price">$35</span>
+      </div>
+      <div class="menu-item">
+        <h4>Fettuccine Alfredo</h4>
+        <span class="price">$40</span>
+      </div>
+      <div class="menu-item">
+        <h4>Lasagne al Forno</h4>
+        <span class="price">$37</span>
+      </div>
+      <div class="menu-item">
+        <h4>Bucatini all'Amatriciana</h4>
+        <span class="price">$20</span>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-line">
+      <strong>CIS</strong> | Wilkinson Road | 0732 68562
+    </div>
+    <div class="socials">
+      <span>TT</span>
+      <span>IG</span>
+      <span>X</span>
+    </div>
+  </footer>
+</body>
+</html>

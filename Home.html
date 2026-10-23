@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Carson's Italian Spaghetti</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <header>
+    <div class="nav-wrap">
+      <div class="logo">CIS <span>Carson's Italian Spaghetti</span></div>
+      <button class="menu-btn" onclick="this.nextElementSibling.classList.toggle('open')">☰</button>
+      <nav>
+        <ul>
+          <li><a href="home.html" class ="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>WELCOME TO<br>CARSON'S ITALIAN SPAGHETTI</h1>
+    <p class="tagline">Best in the City</p>
+    <a href="reservations.html" class="btn">Book a Table Now</a>
+  </section>
+
+  <main>
+    <h2 class="section-title">Most Popular Options</h2>
+    <div class="popular-grid">
+      <div class="popular-card">
+        <div class="img-box">Spaghetti Carbonara</div>
+        <p>Classic Roman Style</p>
+      </div>
+      <div class="popular-card">
+        <div class="img-box">Lasagne al Forno</div>
+        <p>House Specialty</p>
+      </div>
+      <div class="popular-card">
+        <div class="img-box">Fettuccine Alfredo</div>
+        <p>Rich & Creamy</p>
+      </div>
+    </div>
+    <div style="text-align:center; margin-bottom:1rem;">
+      <a href="menu.html" class="btn">View Full Menu</a>
+    </div>
+
+    <div class="info-row">
+      <div class="info-box">
+        <h3>Opening Hours</h3>
+        <p>Mon – Thu: 11:00 AM – 9:00 PM<br>
+           Fri – Sat: 11:00 AM – 10:30 PM<br>
+           Sunday: 12:00 PM – 8:00 PM</p>
+      </div>
+      <div class="info-box">
+        <h3>Locate Us</h3>
+        <p>Wilkinson Road<br>
+           Phone: 0732 68562</p>
+        <a href="contact.html" class="btn" style="margin-top:0.9rem; font-size:0.9rem;">Find Us</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-line">
+      <strong>CIS</strong> | Wilkinson Road | 0732 68562
+    </div>
+    <div class="socials">
+      <span>TT</span>
+      <span>IG</span>
+      <span>X</span>
+    </div>
+  </footer>
+</body>
+</html>
